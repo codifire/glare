@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{4a2caf79-ab27-474b-ac3f-1d6a578e2b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{a04bb556-d4b8-4699-878e-b445c1f787b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Containers">
+      <UniqueIdentifier>{5a6bf1ab-9902-4445-a8d3-54ea8cacaa00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Memory">
+      <UniqueIdentifier>{1cebf4e7-48aa-4ab0-b095-7432c5ee0b23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\app\main.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\engine\containers\AvlTree.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\BinarySearchTree.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\BinarySearchTreeArray.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\BTreeArrayNode.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\BTreeNode.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\containers.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\DLinkList.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\GeneralTree.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\GlareCoreUtility.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\Heap.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\PriorityQueue.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\SLinkList.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\engine_common.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\memory\allocators.h">
+      <Filter>Source Files\Engine\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\SplayTree.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\BTree.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\RbTree.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\containers\BSTNode.h">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
