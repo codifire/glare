@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glare", "glare\glare.vcxproj", "{ABD3CC6F-713B-4679-A43C-6A35AC873C28}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "build\gtest\gtest.vcxproj", "{440DE8E8-B147-4A3F-96C6-243220F9E230}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unit_test", "build\unit_test\unit_test.vcxproj", "{307E416B-450C-466E-9CB4-444AE09BAD05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABD3CC6F-713B-4679-A43C-6A35AC873C28}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ABD3CC6F-713B-4679-A43C-6A35AC873C28}.Debug|Win32.Build.0 = Debug|Win32
+		{ABD3CC6F-713B-4679-A43C-6A35AC873C28}.Release|Win32.ActiveCfg = Release|Win32
+		{ABD3CC6F-713B-4679-A43C-6A35AC873C28}.Release|Win32.Build.0 = Release|Win32
+		{440DE8E8-B147-4A3F-96C6-243220F9E230}.Debug|Win32.ActiveCfg = Debug|Win32
+		{440DE8E8-B147-4A3F-96C6-243220F9E230}.Debug|Win32.Build.0 = Debug|Win32
+		{440DE8E8-B147-4A3F-96C6-243220F9E230}.Release|Win32.ActiveCfg = Release|Win32
+		{440DE8E8-B147-4A3F-96C6-243220F9E230}.Release|Win32.Build.0 = Release|Win32
+		{307E416B-450C-466E-9CB4-444AE09BAD05}.Debug|Win32.ActiveCfg = Debug|Win32
+		{307E416B-450C-466E-9CB4-444AE09BAD05}.Debug|Win32.Build.0 = Debug|Win32
+		{307E416B-450C-466E-9CB4-444AE09BAD05}.Release|Win32.ActiveCfg = Release|Win32
+		{307E416B-450C-466E-9CB4-444AE09BAD05}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
